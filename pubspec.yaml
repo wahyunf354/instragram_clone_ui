@@ -63,6 +63,18 @@ flutter:
     - assets/images/ic_reels.png
     - assets/images/ic_shopping_bag.png
     - assets/images/img_profile.png
+    - assets/images/logo_ig_white.png
+    - assets/images/ic_messager.png
+    - assets/images/ic_comment.png
+    - assets/images/ic_favorite.png
+    - assets/images/ic_save.png
+    - assets/images/ic_share.png
+    - assets/images/ic_plus_reg.png
+    - assets/images/ic_plus_blue.png
+    - assets/images/img_friend_cat_1.png
+    - assets/images/img_friend_cat_2.png
+    - assets/images/img_friend_cat_3.png
+    - assets/images/img_feed_1.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
