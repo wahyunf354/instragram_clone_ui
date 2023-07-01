@@ -55,7 +55,18 @@ class Feed extends StatelessWidget {
               ],
             ),
           ),
-          Image.asset("assets/images/img_feed_1.png"),
+          Stack(
+            children: [
+              Positioned(
+                child: Image.asset("assets/images/img_feed_1.png")
+              ),
+              Positioned(
+                bottom: 10,
+                left: 10,
+                child: Image.asset("assets/images/ic_person.png", width: 24,),
+              )
+            ]
+          ),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 13, vertical: 10),
             child: Row(

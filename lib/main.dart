@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:instragram_clone_ui/pages/home_page.dart';
+import 'package:instragram_clone_ui/pages/profile_page.dart';
 
 void main () => runApp(MyApp());
 
@@ -25,9 +26,7 @@ class MyApp extends StatelessWidget {
               Center(
                 child: Text("Shopping"),
               ),
-              Center(
-                child: Text("Profile"),
-              ),
+              Profile(),
             ],
           ),
           bottomNavigationBar: Container(
